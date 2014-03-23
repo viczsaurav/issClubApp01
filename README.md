@@ -5,6 +5,6 @@ Basic Club Application to:
 -- Add facilities with description
 
 
-+ Use of Ararys in this first version
++ Use of Ararys in this first version (Check issClubApp02 for ArrayList implementation of methods)
 + Dynamic increase of Array size at runtime 
 + In case of addition of new members, checking the current member size and array size, if overflow, accomodate new members.
