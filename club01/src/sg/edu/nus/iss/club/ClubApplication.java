@@ -1,8 +1,8 @@
 package sg.edu.nus.iss.club;
 
-import java.io.BufferedReader;
+//import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
+//import java.io.InputStreamReader;
 
 public class ClubApplication {
 
@@ -15,8 +15,6 @@ public class ClubApplication {
 		Facility f1, f2;
 		Member m1, m2, m3;
 		Club c1 = new Club();
-		Club c2 = new Club();
-		Club c3 = new Club();
 		int idx = 2;
 	/*	String s1, s2,s3;
 		String f1,f2;
@@ -58,12 +56,15 @@ public class ClubApplication {
 		m2 = c1.addMember("Steve",null,"Jobs");	
 		m3 = c1.addMember("Mark","Zuckerberg",null);
 		
-		//m1.show();
-		//m2.show();
-		//m3.show();
+		m1.show();
+		m2.show();
+		m3.show();
 		
 		Member[] members = new Member[c1.getMembers().length];
 		members = c1.getMembers();
+		for(Member m : members){
+			System.out.println("* "+m);
+		}
 		System.out.println("Current Members :");
 		c1.showMembers();
 		System.out.println("Member at position "+idx+" is "+c1.getMember(idx));
